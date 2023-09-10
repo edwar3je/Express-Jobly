@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "minProperties": 1,
+    "maxProperties": 3,
+    "properties": {
+        "name": {"type": "string"},
+        "minEmployees": {"type": "integer", "minimum": 1},
+        "maxEmployees": {"type": "integer", "minimum": 1}
+    },
+    "additionalProperties": false
+}

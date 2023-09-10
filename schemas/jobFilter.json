@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "minProperties": 1,
+    "maxProperties": 3,
+    "properties": {
+        "title": {
+            "type": "string",
+            "minLength": 1
+        },
+        "minSalary": {
+            "type": "integer", 
+            "minimum": 0
+        },
+        "hasEquity": {
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": false
+}
